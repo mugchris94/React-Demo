@@ -1,0 +1,16 @@
+
+.flex_container{
+    display: flex;
+    
+
+}
+
+.login_view {
+    width: 400px;
+    margin:10px 10px;
+}
+
+.banner_view{
+    width: 500px;
+    margin:10px 10px;
+}

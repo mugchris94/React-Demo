@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Banner from './Banner';
+import Banner_view from './Banner_view';
 import LoginForm from './LoginForm';
-import './cstyles/home_view.css';
+import './home_view.css';
 
 class Home_View extends Component {
     constructor(props) {
@@ -15,16 +15,14 @@ class Home_View extends Component {
         return ( 
             <div className='flex-container'>
              
-            
-              <div class="row">
-                <div className="col-md-7">
-                    <Banner />
+                <div className="banner_view">
+                    <Banner_view />
                  </div>
 
-                 <div className='col-md-3'>
+                 <div className='login_view'>
                     <LoginForm />
                  </div>
-              </div>
+              
             </div>
          );
     }
