@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import data from '../mock-data.json';
+import data from './Data_json/mock-data.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './view.css';
+import './styles/view.css';
 
 
 const JsonView = () => {
