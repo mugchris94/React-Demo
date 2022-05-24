@@ -4,7 +4,7 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Home_View from './Home_View';
+import Home_View from './App_Views/Home_View';
 
 
 function App() {

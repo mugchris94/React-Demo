@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Banner_view from './App_Views/Banner_view';
-import LoginForm from './App_Views/LoginForm';
-import './styles/home_view.css';
+import Banner_view from './Banner_view';
+import LoginForm from './LoginForm';
+import '../styles/home_view.css';
 
 class Home_View extends Component {
     constructor(props) {
@@ -13,7 +13,7 @@ class Home_View extends Component {
     
     render() { 
         return ( 
-            <div className='flex-container'>
+            <div className='flex_container'>
              
                 <div className="banner_view">
                     <Banner_view />

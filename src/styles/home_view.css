@@ -1,8 +1,9 @@
 
 .flex_container{
-    display: flex;
+    display: inline-flex;
+    flex-direction: row; 
+    margin-top:100px;
     
-
 }
 
 .login_view {
@@ -11,6 +12,6 @@
 }
 
 .banner_view{
-    width: 500px;
+    width: 750px;
     margin:10px 10px;
 }
