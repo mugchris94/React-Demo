@@ -5,7 +5,7 @@ import '../styles/Login.css';
 const LoginForm = () => {
     return ( 
         <div>
-            <div class="alert alert-info" role="alert">
+            <div class="alert alert-danger" role="alert">
                  Login Form
             </div>
             <form>

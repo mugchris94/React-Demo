@@ -2,16 +2,33 @@
 .flex_container{
     display: inline-flex;
     flex-direction: row; 
-    margin-top:100px;
+    padding:0;
+    
     
 }
 
 .login_view {
+    
     width: 400px;
     margin:10px 10px;
+    
+    height: 610px;
+    padding-top:100px;
+    padding-left: 10px;
+    padding-right: 10px;
+       
 }
 
 .banner_view{
-    width: 750px;
-    margin:10px 10px;
+
+    width: 50%;
+    height: 610px;
+    padding-top:100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    bottom:0;
+    border:1px solid #FDAC53;
+    background: #FDAC53;
+   
+    
 }
