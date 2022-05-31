@@ -9,10 +9,10 @@
 
 .login_view {
     
-    width: 400px;
+    width: 430px;
     margin:10px 10px;
     
-    height: 610px;
+    height: 100vh;
     padding-top:100px;
     padding-left: 10px;
     padding-right: 10px;
@@ -22,7 +22,7 @@
 .banner_view{
 
     width: 50%;
-    height: 610px;
+    height: 100vh;
     padding-top:100px;
     padding-left: 10px;
     padding-right: 10px;

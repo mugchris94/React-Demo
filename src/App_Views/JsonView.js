@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import data from './Data_json/mock-data.json';
+import data from '../Data_json/mock-data.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/view.css';
+import '../styles/view.css';
 
 
 const JsonView = () => {
     const [ userdetails, setUserDetail ] = useState(data);
     return ( 
         <div>
-            <table className='table'>
+            <table className='table-view'>
                    <thead>
                        <tr>
                            <th>name</th>
