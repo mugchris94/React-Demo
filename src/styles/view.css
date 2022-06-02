@@ -3,3 +3,24 @@
     padding: 0;
     margin:0;
 }
+
+.table_container{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu_view{
+    height: 100vh;
+    width: 40%;
+}
+
+.flex_dashboard{
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
