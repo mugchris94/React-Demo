@@ -10,12 +10,20 @@ const JsonView = () => {
         <div className='flex_dashboard'>
 
             <div className='menu_view'>
+                <nav>
+                    <label></label>
+                    <ul>
+                        <li><span><img scr='S'/></span>Requests</li>
+                        <li><span></span>Stock_Users</li>
+                        <li><span></span>Stock_items</li>
 
+                    </ul>
+                </nav>
 
             </div>
 
             <div className='table-container'>
-                <table className='table-view'>
+                <table >
                     <thead>
                         <tr>
                             <th>name</th>

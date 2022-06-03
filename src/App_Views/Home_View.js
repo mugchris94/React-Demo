@@ -4,7 +4,6 @@ import LoginForm from './LoginForm';
 import '../styles/home_view.css';
 
 
-
 class Home_View extends Component {
     constructor(props) {
         super(props);
