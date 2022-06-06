@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import data from '../Data_json/mock-data.json';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/view.css';
 
 
-const JsonView = () => {
+const DashboardView = () => {
     const [ userdetails, setUserDetail ] = useState(data);
     return ( 
         <div className='flex_dashboard'>
@@ -19,6 +19,25 @@ const JsonView = () => {
 
                     </ul>
                 </nav>
+
+                <div className='addItem'>
+                    <form method='#'>
+                    
+                        <label> Enter name</label>
+                        <br/>
+                        <input type='text' placeholder='Enter name' value=''/><br/>
+                        <label> Enter username</label><br/>
+                        <input type='text' placeholder='Enter username' value=''/>
+                        <br/>
+                        <label> Enter Phone number</label><br/>
+                        <input type='text' placeholder='Enter Phone number' value=''/><br/>
+                        <label> Enter Company Name</label><br/>
+                        <input type='text' placeholder='Enter Company name' value=''/>
+                        <br/>
+                        <input type="submit" value='Add Item' name='addItem'/>
+                        
+                    </form>
+                </div>
 
             </div>
 
@@ -54,4 +73,4 @@ const JsonView = () => {
      );
 }
 
-export default JsonView;
+export default DashboardView;

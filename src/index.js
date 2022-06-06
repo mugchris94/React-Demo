@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import JsonView from "./App_Views/JsonView";
+
 
 import reportWebVitals from './reportWebVitals';
+import DashboardView from './App_Views/DashboardView';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,7 @@ root.render(
 
         <Routes>
           <Route path="/" element={<App/>} />  
-          <Route path="JsonView" element={<JsonView />}/>
+          <Route path="DashboardView" element={<DashboardView />}/>
         </Routes> 
         
       </BrowserRouter>

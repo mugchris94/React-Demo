@@ -10,12 +10,12 @@ const LoginForm = () => {
             </div>
             <form>
 
-                <label>Username </label>
+                <label className='label'>Username </label>
                 
                 <input type="text" name='user_input' class="user_input" placeholder='Enter username'/>
 
                     
-                <label>Password </label>
+                <label className='label' >Password </label>
 
                 
                 <input type="password" class="password_input" name='passwd_det' placeholder='Enter email'/>
