@@ -21,6 +21,8 @@ const DashboardView = () => {
                 </nav>
 
                 <div className='addItem'>
+
+                    <label id="addTitle">Add an Item in Stock</label>
                     <form method='#'>
                     
                         <label> Enter name</label>

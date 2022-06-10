@@ -30,6 +30,14 @@ label {
     border-left-color: #F99F38;
 }
 
+.menu_view ul{
+
+   margin-bottom: 50px;   
+   
+}
+
+
+
 
 .flex_dashboard{
     display: inline-flex;
@@ -49,21 +57,27 @@ label {
     border:1px solid#f0f2f5;
   
     border-collapse:collapse;   
-    font-size: 0.9em;
+    border-radius:6px;
+    
+    
 }
+.table-container table{
+    width: 100%;
+    box-sizing: border-box;
+}
+.table-container td{
+    padding-top:12px;
+    padding-bottom:6px
 
-
-
-.table-container table thead tr{
+}
+.table-container th{
+    padding-top:12px;
+    padding-bottom:12px;
     background-color: #F99F38;
     text-align: left;
     color:#fff;
     padding:5px;
-
-}
-
-.table-container thead tr td{
-    padding:10px;
+    font-size: 2 em;
     
 }
 
@@ -96,6 +110,19 @@ label {
 .addItem form{
     padding:none;
     margin:0;
+}
+#addTitle{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F99F38;
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 5px;
+    color:#fff;
+    border-radius: 3px;
+    
+}
+#addTitle:hover{
+    color: #000;
 }
 
 .addItem label{
