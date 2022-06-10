@@ -3,20 +3,13 @@ label {
     font-family: 'Poppins', sans-serif;
 }
 
-.table-container{
-    margin: 15px 30px 10px 10px ;
-    height: 100vh;
-    width: 700px;
-    background-color: white;
-    border:1px solid#f0f2f5;
-    padding:15px    
-}
+
+
+
 
 .menu_view{
     height: 100vh;
-    width: 350px;
-    
-    
+    width: 350px;    
     font-size: 21px;
     margin-right:20px
     
@@ -29,6 +22,7 @@ label {
     border-left: 1px solid transparent;
     padding-left: 15px;
     transition: border-left 1s ease;
+    color:#F99F38;
 }
 
 .menu_view ul li:hover {
@@ -46,19 +40,67 @@ label {
     
 }
 
-table {
-    border-collapse:collapse;
-    border-spacing: 5px 15px;
-}
+.table-container{
+    margin: 25px 0;
+    height: 100vh;
+    width: 900px;
+    padding: 12px;
+    background-color: white;
+    border:1px solid#f0f2f5;
   
-
-table thead tr th{
-    color: #F99F38;
-}
-
-td {
-    padding: 5px;
-    margin-right: 20px;
+    border-collapse:collapse;   
+    font-size: 0.9em;
 }
 
 
+
+.table-container table thead tr{
+    background-color: #F99F38;
+    text-align: left;
+    color:#fff;
+    padding:5px;
+
+}
+
+.table-container thead tr td{
+    padding:10px;
+    
+}
+
+
+.addItem{
+    margin:10px 6px;
+    padding:20px;
+    border: 1px solid #f0f2f5;
+    width: 350px;
+}
+
+.addItem input{
+    border-radius: 6px;
+    border: 1px solid #f0f2f5;
+    padding: 10px;
+    font-size: 12px;
+    width: 320px;
+    margin: 6px 0;
+    
+}
+.addItem input[type='submit']{
+    border-radius: 6px;
+    border: 1px solid #f0f2f5;
+    padding: 10px;
+    font-size: 12px;
+    width: 320px;
+    background-color: #F99F38;
+    color:#fff;
+}
+.addItem form{
+    padding:none;
+    margin:0;
+}
+
+.addItem label{
+    color:#000;
+    font-size: 16px;
+    padding: 6px;
+    font-family: 'Poppins', sans-serif;
+}
