@@ -11,7 +11,7 @@ label {
     height: 100vh;
     width: 350px;    
     font-size: 21px;
-    margin-right:20px
+    margin-right:30px;
     
    
 }
@@ -54,48 +54,60 @@ label {
     width: 900px;
     padding: 12px;
     background-color: white;
-    border:1px solid#f0f2f5;
+    
   
     border-collapse:collapse;   
     border-radius:6px;
-    
+    border-spacing: 4px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     
 }
 .table-container table{
     width: 100%;
     box-sizing: border-box;
 }
-.table-container td{
+
+#table_head{
+    
+    padding:10px 15px;
+    text-align: left;
+    
+    
+}
+
+#table_head th{
+    color: #F99F38;
+    border-bottom:1px solid #F99F38;
+}
+
+.table-container tbody td{
     padding-top:12px;
     padding-bottom:6px
 
 }
-.table-container th{
-    padding-top:12px;
-    padding-bottom:12px;
-    background-color: #F99F38;
-    text-align: left;
-    color:#fff;
-    padding:5px;
-    font-size: 2 em;
-    
-}
+
 
 
 .addItem{
-    margin:10px 6px;
+    margin:10px 15px;
     padding:20px;
     border: 1px solid #f0f2f5;
     width: 350px;
+    background-color: #f0f2f5;
+    border-radius:4px;
+    
 }
 
 .addItem input{
     border-radius: 6px;
-    border: 1px solid #f0f2f5;
+    /* border: 1px solid #f0f2f5; */
     padding: 10px;
     font-size: 12px;
-    width: 320px;
+    width: 310px;
     margin: 6px 0;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     
 }
 .addItem input[type='submit']{
@@ -107,6 +119,7 @@ label {
     background-color: #F99F38;
     color:#fff;
 }
+
 .addItem form{
     padding:none;
     margin:0;

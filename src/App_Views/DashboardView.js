@@ -46,11 +46,12 @@ const DashboardView = () => {
             <div className='table-container'>
                 <table >
                     <thead>
-                        <tr>
+                        <tr id="table_head">
                             <th>name</th>
                             <th>username</th>
                             <th>phone</th>
                             <th>Company Name</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -61,6 +62,10 @@ const DashboardView = () => {
                                 <td>{ user_detail.username }</td>
                                 <td>{ user_detail.phone }</td>
                                 <td>{ user_detail.company.name }</td>
+                                <td>
+                                    <button>Edit</button>||
+                                    <button>Delete</button>
+                                </td>
                             </tr>
                         ))
 
