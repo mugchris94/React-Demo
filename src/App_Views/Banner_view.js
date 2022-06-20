@@ -12,7 +12,7 @@ const Banner_view = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">Neuralink</h5>
                     <p className="card-text">The goal of Neuralink is to create a device that can help enhance the human brain's cognitive capabilities. This device would be used for both therapeutic and non-therapeutic reasons. However, Neuralink is currently focused on making medical devices</p>
-                    <Link to="/DashboardView">Have a Tour !</Link>
+                    <Link to="/DashboardView"><a href="#" id="">Have a Tour !</a></Link>
                 </div>
             </div>
         </div>

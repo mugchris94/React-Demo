@@ -1,15 +1,17 @@
 
 .dashTotals{
     margin: 5px 30px 15px 30px;
-
+    margin-left: 60px;
 }
 
 .stats{
     display:inline-flex;
     margin-right: 20px;
-    background-color: #e3dede;
+    margin-left: 10px;
+    background-color: #f0f0f0;
     padding: 8px;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .stats ul{
     list-style-type: none;
@@ -31,5 +33,14 @@
 }
 
 .dash{
+    font-family: 'Poppins', sans-serif;
+    margin-top:20px;
     margin-bottom: 12px;
+    margin-left:65px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color:#66CC66;
 }

@@ -51,7 +51,7 @@ const DashboardView = () => {
             <div className='table-container'>
 
                 <div className='topheader'>
-                    <label className='dash'>Dashboard</label>
+                    <label className='dash'># Admin Dashboard</label>
                     <div className='dashTotals'>
                         <div className='stats'>
                             <img src={icon} alt='icon' />
