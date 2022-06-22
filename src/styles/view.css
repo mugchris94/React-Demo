@@ -9,7 +9,7 @@ label {
     font-size: 21px;
     margin-right:30px;
     margin-top:30px;
-   
+    
 }
 
 .menu_view ul li {
@@ -31,7 +31,6 @@ label {
 .menu_view ul li:hover {
     color:#fff;
     border-color: #71C562;
-
     box-shadow: inset 200px 0 0 0 #71C562;
 }
 
@@ -41,15 +40,12 @@ label {
    
 }
 
-
-
-
 .flex_dashboard{
     display: inline-flex;
     margin: 0px;
     flex-direction: row; 
     padding:0px;
-    background-color: #e3dede;
+    background-color: #f5f5f5f5;
     width:100%;
     height:150vh;
     
@@ -100,16 +96,14 @@ label {
     
 }
 
-
-
 .addItem{
     margin:10px 15px;
     padding:20px;
     border: 1px solid #f0f2f5;
     width: 350px;
-    background-color: #f0f2f5;
+    background-color: #fff;
     border-radius:4px;
-    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .addItem input{
