@@ -52,49 +52,7 @@ label {
     
 }
 
-.table-container{
-    margin: 25px 15px;
-    height: 100%;
-    width: 100%;
-    padding: 12px;
-    background-color: white;
-    
-  
-    border-collapse:collapse;   
-    border-radius:6px;
-    border-spacing: 4px;
-    
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-    
-}
-.table-container table{
-    width: 90%;
-    position: center;
-    margin:10px auto
-}
 
-.table-container > table > thead > tr > th{
-    
-    color: #71C562;
-    font-family: 'Poppins', sans-serif;
-    padding: 7px 4px;
-    
-    background-color: #f0f2f5;   
-}
-
-.table-container > table > thead > tr{
-    border:0.5px solid #f0f2f5;
-    border-radius:6px;
-    margin-bottom:20px;
-}
-
-
-.table-container > table > tbody > tr > td{
-    padding-top:12px;
-    padding-bottom:6px;
-    font-family: 'Poppins', sans-serif;
-    
-}
 
 .addItem{
     margin:10px 15px;
